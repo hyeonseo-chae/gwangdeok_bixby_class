@@ -1,0 +1,40 @@
+
+result-view {
+
+  match: Results_bus (this)
+
+  message {
+
+        template ("버스 정보")
+  }
+  
+ 
+
+  render {
+   
+      if(size(this) == 1){
+      layout{
+        layout-macro (one){
+          param(info){
+            expression (this)
+          }
+        }
+        
+        
+      }
+   
+    }else{
+      list-of (this){
+        where-each (item){
+          layout-macro (many){
+            param(info){
+              expression (item)
+            }
+          }
+        }
+      }
+    }
+    
+  }
+    
+  }

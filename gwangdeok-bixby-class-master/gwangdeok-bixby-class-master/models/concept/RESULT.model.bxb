@@ -1,0 +1,11 @@
+structure (RESULT){
+  property(RESULT_MSG){
+    type(RESULT_MSG)
+    min(Optional) max(Many)
+  }
+  property(RESULT_CODE){
+    type(RESULT_CODE)
+    min(Optional) max(Many)
+  }
+  
+}

@@ -1,0 +1,16 @@
+layout-macro-def (many) {
+  params {
+    param (info) {
+      type (Results_bus)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    paragraph(" #{value(info.BUSSTOP_LIST.REMAIN_MIN)}"){
+              style(Detail_L_Soft)
+            }
+          
+
+  }
+  
+}

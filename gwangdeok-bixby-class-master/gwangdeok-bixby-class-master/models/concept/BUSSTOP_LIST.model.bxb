@@ -1,0 +1,62 @@
+structure (BUSSTOP_LIST){
+property (ARRIVE){
+type(ARRIVE)
+min(Optional) max(Many)
+}
+property (REMAIN_STOP){
+type(REMAIN_STOP)
+min(Optional) max(Many)
+}
+property (BUS_ID){
+type(BUS_ID)
+min(Optional) max(Many)
+}
+property (METRO_FLAG){
+type(METRO_FLAG)
+min(Optional) max(Many)
+}
+property (BUSSTOP_NAME){
+type(BUSSTOP_NAME)
+min(Optional) max(Many)
+}
+property (CURR_STOP_ID){
+type(CURR_STOP_ID)
+min(Optional) max(Many)
+}
+property (LINE_ID){
+type(LINE_ID)
+min(Optional) max(Many)
+}
+property (REMAIN_MIN){
+type(REMAIN_MIN)
+min(Optional) max(Many)
+}
+property (ENG_BUSSTOP_NAME){
+type(ENG_BUSSTOP_NAME)
+min(Optional) max(Many)
+}
+property (DIR_START){
+type(DIR_START)
+min(Optional) max(Many)
+}
+property (DIR){
+type(DIR)
+min(Optional) max(Many)
+}
+property (DIR_END){
+type(DIR_END)
+min(Optional) max(Many)
+}
+property (LOW_BUS){
+type(LOW_BUS)
+min(Optional) max(Many)
+}
+property (ARRIVE_FLAG){
+type(ARRIVE_FLAG)
+min(Optional) max(Many)
+}
+property (LINE_NAME){
+type(LINE_NAME)
+min(Optional) max(Many)
+}
+}

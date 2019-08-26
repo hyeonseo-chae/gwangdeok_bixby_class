@@ -1,0 +1,12 @@
+endpoints {
+  action-endpoints {
+     
+    action-endpoint (bus) {
+      accepted-inputs ()
+      local-endpoint (bus.js)
+    }
+     
+  
+    }
+  }
+

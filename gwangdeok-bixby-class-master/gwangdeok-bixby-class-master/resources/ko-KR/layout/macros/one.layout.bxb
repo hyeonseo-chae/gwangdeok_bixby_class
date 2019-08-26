@@ -1,0 +1,32 @@
+layout-macro-def (one) {
+  
+  params {
+    param (info) {
+      type (Results_bus)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      title{
+        template ("버스")
+      }
+      
+      content{
+        
+        for-each(info.BUSSTOP_LIST){ 
+          as (subinfo){           
+            paragraph("#{value(subinfo.REMAIN_MIN)}"){
+              style(Title_M)
+            }
+           
+   
+            }           
+          }
+        }
+      
+      }
+    
+    }
+
+}
